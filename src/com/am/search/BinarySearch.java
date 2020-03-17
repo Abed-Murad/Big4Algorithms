@@ -6,6 +6,7 @@ package com.am.search;
  * 3- Else If x is greater than the mid element, then x can only lie in right half subarray after the mid element.
  * So we recur for right half.
  * 4- Else (x is smaller) recur for the left half.
+ *
  * Time complexity = O(Log n).
  */
 
