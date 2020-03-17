@@ -2,7 +2,7 @@ package com.am.search;
 
 // Java code for linearly searching x in array[].
 // if x is present then return it's location, otherwise return -1.
-// Big O = n
+// Time complexity of below algorithm is O(n)
 public class LinearSearch {
     private static int search(int[] array, int x) {
         for (int i = 0; i < array.length; i++) {
