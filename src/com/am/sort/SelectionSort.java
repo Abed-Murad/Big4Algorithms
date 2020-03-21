@@ -1,6 +1,8 @@
 package com.am.sort;
 
 /**
+ * source: https://www.geeksforgeeks.org/bubble-sort/
+ *
  * The selection sort algorithm sorts an array by repeatedly finding the minimum element (considering ascending order)
  * from unsorted part and putting it at the beginning. The algorithm maintains two subarrays in a given array.
  * <p>
