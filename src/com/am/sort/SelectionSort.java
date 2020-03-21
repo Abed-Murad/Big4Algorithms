@@ -5,6 +5,7 @@ package com.am.sort;
  * from unsorted part and putting it at the beginning. The algorithm maintains two subarrays in a given array.
  * <p>
  * 1) The subarray which is already sorted.
+ * <p>
  * 2) Remaining subarray which is unsorted.
  * <p>
  * In every iteration of selection sort, the minimum element (considering ascending order)
@@ -29,6 +30,9 @@ package com.am.sort;
  * // Find the minimum element in arr[3...4]
  * // and place it at beginning of arr[3...4]
  * 11 12 22 25 64
+ * <p>
+ * <p>
+ * Time Complexity: O(n2) as there are two nested loops.
  */
 public class SelectionSort {
 
