@@ -35,10 +35,12 @@ package com.am.sort;
  */
 
 public class InsertionSort {
-    /*Function to sort array using insertion sort*/
-    void sort(int arr[]) {
+    /* Function to sort array using insertion sort */
+    /* Use the DEBUGGER to understand this algorithm flow faster! */
+    private void sort(int[] arr) {
         int n = arr.length;
         for (int i = 1; i < n; ++i) {
+            // key is the item that we want to find a place to insert it in.
             int key = arr[i];
             int j = i - 1;
 
