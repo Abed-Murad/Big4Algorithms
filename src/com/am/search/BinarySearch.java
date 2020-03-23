@@ -1,5 +1,7 @@
 package com.am.search;
 
+import com.am.kotlin.DAYS;
+
 /**
  * 1- Compare x with the middle element.
  * 2- If x matches with middle element, we return the mid index.
